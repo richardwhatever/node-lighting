@@ -1,0 +1,178 @@
+body {
+  background-color: #fffce3;
+  color: #0b0b0b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0;
+}
+
+.logo {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+p {
+  margin: 2em 0;
+}
+
+a {
+  color: #fd7b33;
+  text-decoration: none;
+}
+
+  a:hover {
+    color: #f04337;
+    text-decoration: underline;
+  }
+
+footer {
+  width: 100%;
+  line-height: 1.5em;
+  margin-top: 50px;
+  padding: 0;
+  border-top: solid 5px #f4f1d4;
+  border-bottom: solid 5px #f4f1d4;
+  font-size: 0.9rem;
+  background-color: #f4f1d4;
+}
+
+  footer .container div {
+    margin: 0 auto 50px;
+  }
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  padding: 50px;
+  background-color: #0b0b0b;
+  color: #fd7b33;
+  text-align: center;
+}
+
+
+/*
+@media (min-width: 576px) {
+
+}
+*/
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.7em;
+  }
+
+  .container {
+    margin-top: 75px;
+    margin: 75px auto;
+  }
+
+  .logo {
+    margin-bottom: 75px;
+  }
+
+  footer {
+    margin-top: 75px;
+  }
+
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+      footer .container div {
+        margin: 0 0 75px;
+      }
+
+    footer .company {
+      text-align: right;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  body {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2em;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .logo {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  .footer-container div {
+    margin: 0 0 100px;
+    font-size: 1rem;
+    line-height: 1.7em;
+  }
+}
+
+/*X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ .container {
+    max-width: 960px;
+    margin-top: 150px;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    line-height: 2em;
+  }
+
+  p {
+    margin: 3em 0;
+  }
+
+  .logo {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  footer .container div {
+    margin: 0 0 100px;
+    font-size: 1.3rem;
+    line-height: 1.7em;
+  }
+}
