@@ -12,6 +12,12 @@ body {
   max-width: 600px;
   margin: 50px auto;
   padding: 0;
+
+  margin: 75px auto;
+}
+
+body > .container {
+  min-height: 100%;
 }
 
 .logo {
@@ -82,7 +88,6 @@ footer {
 @media (min-width: 768px) {
   
   .container {
-    margin-top: 75px;
     margin: 75px auto;
   }
 
